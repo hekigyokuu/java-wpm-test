@@ -7,8 +7,8 @@ A simple terminal-based typing test implemented in Java. The program evaluates t
 1. Clone the repository: 
 > git clone https://github.com/hekigyokuu/java-wpm-test.git
 2. Navigate to the project directory:
-> cd type-test
+> cd java-wpm-test
 3. Compile the Java code:
-> javac TypeTest.java
+> javac TypingTest.java
 4. Run the program:
-> java TypeTest
+> java TypingTest
