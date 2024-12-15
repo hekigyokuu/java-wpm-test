@@ -19,17 +19,21 @@ public class TypingTest {
     }
 
     private void displayTestToInput(String textToInput) {
-        System.out.println("Type the text as fast as you can!");
-        System.out.println("\n" + textToInput + "\n");
+        System.out.println("\nType the text as fast as you can!");
+        System.out.println();
+        System.out.println("==================================================================================");
+        System.out.println(">> " + textToInput);
+        System.out.println("==================================================================================");
     }
 
     private void confirmToStart(Scanner sc) {
-        System.out.println("Press Enter to start...");
+        System.out.println("\nPress ENTER to start...");
         sc.nextLine();
     }
 
     private String scanUserInput(Scanner sc) {
         System.out.println("Start typing now...");
+        System.out.print(">> ");
         return sc.nextLine();
     }
 
