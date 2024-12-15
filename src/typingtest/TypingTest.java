@@ -9,7 +9,8 @@ public class TypingTest {
         "the only limit to our realization of tomorrow will be our doubts of today",
         "courage is grace under pressure",
         "it does not matter how slowly you go as long as you do not stop",
-        "in the middle of difficulty lies opportunity"
+        "in the middle of difficulty lies opportunity",
+        "the trouble is you think you have time"    
     };
 
     private String randomTextGenerator() {
