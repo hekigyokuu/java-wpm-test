@@ -5,12 +5,12 @@ import java.util.Random;
 
 public class TypingTest {
     private static final String[] TEXT_TO_INPUT = {
-        "life is really simple, but we insist on making it complicated",
+        "life is really simple but we insist on making it complicated",
         "the only limit to our realization of tomorrow will be our doubts of today",
         "courage is grace under pressure",
         "it does not matter how slowly you go as long as you do not stop",
         "in the middle of difficulty lies opportunity",
-        "the trouble is you think you have time"    
+        "the trouble is you think you have time"
     };
 
     private String randomTextGenerator() {
@@ -55,8 +55,8 @@ public class TypingTest {
     }
 
     private void results(double elapsedTime, int wpm, double accuracy) {
-        System.out.println("Results: ");
-        System.out.println("Time Taken: " + elapsedTime + "milliseconds (" + (elapsedTime/1000) + " seconds)");
+        System.out.println("\nResults: ");
+        System.out.println("Time Taken: " + elapsedTime + " milliseconds (" + (elapsedTime/1000) + " seconds)");
         System.out.println("Word/s per Minute: " + wpm);
         System.out.println("Accuracy: " + accuracy + "%");
     }
